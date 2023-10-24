@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 50px;
+    gap: 1rem;
+    margin-top: 3rem;
+    label {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gray;
+    }
+    input {
+        outline: none;
+        border: none;
+    }
+    #submit {
+        height: 5vh;
+        width: 15vw;
+        font-size: small;
+        background-color: black;
+        color: white;
+        margin-bottom: 1rem;
+    }
+    #radio {
+        width: 3vw;
+        height: 3vh;
+    }
+    #text {
+        color: black;
+    }
+}
+.text {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
